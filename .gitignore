@@ -1,0 +1,20 @@
+# 1. 가상환경 및 파이썬 캐시 (필수 제외)
+.venv/
+__pycache__/
+*.py[cod]
+
+# 2. 테스트 캐시 (이미지에 있는 .pytest_cache 제외)
+.pytest_cache/
+
+# 3. PyInstaller 빌드 파일 (dist, build 제외)
+build/
+dist/
+
+# 4. 실행 로그 및 결과물 (error.log, result 폴더 제외)
+*.log
+result/
+
+# 5. VS Code 설정 폴더 (선택 사항)
+.vscode/
+
+# 주의: *.spec은 지웠습니다. (설정 파일을 저장하기 위해)
