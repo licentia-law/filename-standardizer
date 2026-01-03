@@ -94,7 +94,7 @@ def process_files(source_dir, progress_callback=None, status_callback=None):
     os.makedirs(result_dir, exist_ok=True)
 
     # FR-03: 허용 확장자
-    allowed_image_exts = ['.cr3', '.jpg', '.jpeg', '.png', '.gif', '.heic', '.hif']
+    allowed_image_exts = ['.cr3', '.jpg', '.jpeg', '.png', '.gif', '.heic', '.hif', '.dng']
     allowed_video_exts = ['.mp4', '.wma', '.mov']
     all_allowed_exts = allowed_image_exts + allowed_video_exts
 
